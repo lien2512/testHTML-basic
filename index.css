@@ -1,0 +1,60 @@
+body {
+    background: #fafcfe;
+}
+.resource {
+    margin: 20px;
+}
+table {
+
+    width: 100%;
+    max-width: 700px;
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    background-color: #fff;
+
+    box-shadow: 0px 0px 2px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+
+  }
+  
+  td, th {
+    padding: 12px;
+
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .resource-data tr:nth-child(even) {
+    background-color: #f7f7f8;
+  }
+
+  .resource-data .header th{
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .header th.age{
+    text-align: left;
+  }
+
+
+
+  .form-data th, .form-data td  {
+    border: 1px solid black;
+    border-collapse: collapse;
+    max-width: 500px;
+    padding: 8px;
+
+  }
+
+  .form-data .header th{
+      text-align: center;
+  }
+
+  .title-form {
+      width: 500px;
+      background: green;
+  }
+  .title-form h2 {
+      padding: 7px;
+  }
